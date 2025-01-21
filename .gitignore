@@ -1,0 +1,27 @@
+# .gitignore
+/public/wp-admin/
+/public/wp-includes/
+/public/wp-content/upgrade/
+/public/wp-content/uploads/
+/public/wp-content/backup-db/
+/public/wp-content/cache/
+/public/wp-content/advanced-cache.php
+/public/wp-content/wp-cache-config.php
+/public/wp-content/debug.log
+
+# WordPress core files
+/public/index.php
+/public/license.txt
+/public/readme.html
+/public/wp-*.php
+/public/xmlrpc.php
+
+# DDEV
+.ddev/docker-compose*.yaml
+.ddev/db_snapshots/
+.ddev/.global_commands/
+.ddev/.homeadditions/
+
+# Divers
+.DS_Store
+node_modules/
